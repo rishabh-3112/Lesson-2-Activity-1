@@ -1,14 +1,6 @@
-# ating different variables
-x = 5
+import keyword
 
-n = "John"
-print(x)
-print(n)
+# print all the Python keywords
 
-codingal = "codingal"
-print(codingal)
-
-# User Input
-name = input("Enter your name: ")
-
-print("\nHello", name, "\nwelcome to codingal")
+print("Python keywords are .....\n")
+print(keyword.kwlist)
